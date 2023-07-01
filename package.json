@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-basic-bnmd",
+  "version": "1.0.0",
+  "description": "First nodejs basic repo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thu4nvd/nodejs-basic-bnmd.git"
+  },
+  "author": "thu4nvd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thu4nvd/nodejs-basic-bnmd/issues"
+  },
+  "homepage": "https://github.com/thu4nvd/nodejs-basic-bnmd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
