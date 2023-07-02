@@ -13,7 +13,7 @@ First nodejs basic repo.
   - [Lesson 06: View Engines](#lesson-06-view-engines)
   - [Lesson 07: Static Files](#lesson-07-static-files)
   - [Lesson 08: Routers \& MVC](#lesson-08-routers--mvc)
-  - [Lesson 09: GET Method](#lesson-09-get-method)
+  - [Lesson 09: HTTP Request Method \& Database](#lesson-09-http-request-method--database)
   - [Lesson 10: Routes Parameter](#lesson-10-routes-parameter)
   - [Lesson 11: Form](#lesson-11-form)
   - [Lesson 12: POST Method](#lesson-12-post-method)
@@ -41,12 +41,33 @@ First nodejs basic repo.
 ## Lesson 08: Routers & MVC
 
 MVC Design pattern : Model View Controller
-[Diagram](https://www.cybermedian.com/what-is-model-view-controller-mvc-framework-model-mvc-with-uml-robustness-analysis/) 
+![MVC Design pattern : Model View Controller](https://www.cybermedian.com/what-is-model-view-controller-mvc-framework-model-mvc-with-uml-robustness-analysis/) 
 
 ORM : Object Relational Mapping
-[ORM Diagram](https://viblo.asia/p/object-relational-mapping-djeZ1PQ3KWz)
+![ORM : Object Relational Mapping](https://viblo.asia/p/object-relational-mapping-djeZ1PQ3KWz)
 
-## Lesson 09: GET Method
+## Lesson 09: HTTP Request Method & Database
+
+Express JS : Basic routing [link](http://expressjs.com/en/starter/basic-routing.html)
+HTTP Request methods [link](https://en.wikipedia.org/wiki/HTTP#Request_methods)
+CRUD: Create/ Read/ Update/ Delete [link](https://vi.wikipedia.org/wiki/CRUD)
+- Equivalent Method of : POST/GET/PUT/DELETE
+
+MongoDB: Chat real time, store video
+- data as Object (only GET method is enough)
+- MongoDB use ORM
+- Slow when join table
+- Raw query: select * from users, but ORM: findALL()
+
+eCommerce: SQL, postGres, Oracle (finance, stock)
+
+mysql2 versus mysql [link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-w-maie__AhVatlYBHaNsAdMQFnoECA4QAQ&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F25344661%2Fwhat-is-the-difference-between-mysql-mysql2-considering-nodejs&usg=AOvVaw2yyP0kcoAiAuV_dNPREENF&opi=89978449)
+
+`npm install --save-exact mysql2@2.3.0`
+
+XAMPP installation [link](https://www.apachefriends.org/download_success.html)
+
+
 
 ## Lesson 10: Routes Parameter
 
