@@ -1,20 +1,18 @@
 import express from 'express';
 import configViewEngine from './configs/viewEngine.js';
+import initWebRoute from './route/web.js';
 require('dotenv').config()
 
 const app = express();
-const port = process.env.port || 8080;
+const port = process.env.port || 3000;
 // console.log(process.env) // remove this after you've confirmed it is working
-// console.log('>>>check port is currently used : : ', port)
+console.log('>>>check port is currently used : : ', port)
 
+// setup view engine
 configViewEngine(app);
 
-app.get('/', (req, res) => {
-    res.render('test/index.ejs')
-})
-app.get('/about', (req, res) => {
-    res.send(`I'm Thuanvd who wrote this code!`)
-})
+// init web route
+initWebRoute(app);
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
