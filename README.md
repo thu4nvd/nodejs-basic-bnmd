@@ -68,9 +68,11 @@ Static files [link](http://expressjs.com/en/starter/static-files.html)
 ## Lesson 08: Routers & MVC
 
 MVC Design pattern : Model View Controller
+
 ![MVC Design pattern : Model View Controller](src/public/images/mvc.png)
 
 ORM : Object Relational Mapping
+
 ![ORM : Object Relational Mapping](src/public/images/orm.png)
 
 ## Lesson 09: HTTP Request Method & Database
