@@ -16,7 +16,7 @@ First nodejs basic repo.
   - [Lesson 09: HTTP Request Method \& Database](#lesson-09-http-request-method--database)
   - [Lesson 10: Create NAV bar \& EJS Loop Data](#lesson-10-create-nav-bar--ejs-loop-data)
     - [Discussion](#discussion)
-  - [Lesson 11: Form / Route Parameters](#lesson-11-form--route-parameters)
+  - [Lesson 11: Details User / Route Parameters](#lesson-11-details-user--route-parameters)
     - [Discussion](#discussion-1)
   - [Lesson 12: POST Method](#lesson-12-post-method)
   - [Lesson 13: CRUD](#lesson-13-crud)
@@ -51,6 +51,7 @@ Some command to use
     git commit -m "comment"
     git push origin dev 
 
+Create .gitignore file
 
 ## Lesson 05: Express App (Hello world)
 
@@ -68,9 +69,11 @@ Static files [link](http://expressjs.com/en/starter/static-files.html)
 ## Lesson 08: Routers & MVC
 
 MVC Design pattern : Model View Controller
+
 ![MVC Design pattern : Model View Controller](src/public/images/mvc.png)
 
 ORM : Object Relational Mapping
+
 ![ORM : Object Relational Mapping](src/public/images/orm.png)
 
 ## Lesson 09: HTTP Request Method & Database
@@ -102,16 +105,22 @@ EJS Loop [link](https://stackoverflow.com/questions/22952044/loop-through-json-i
 
 ### Discussion
 
-* mấy bác nhớ run lại cái Xampp nhé. chứ chạy npm start ko sẽ báo lỗi events error 498, làm mình mò mãi :v
-* Dự định sắp tới a có ra Typescript hay NextJS hông anh
-* - hiện tại a chưa có e nhé. vì cộng đồng js thuần nó vẫn đông hơn typescript :v
-* anh ơi có cách nào không cần lấy cái nguyên row trực tiếp mà không cần phải sử dụng data.push từng cái không anh
-* anh ơi em xóa cái JSON.stringtify rồi mà nó vẫn không chuyển thanh object ạ ??
-* - em console.log ra xem giá trị của biến nó như thế nào. đã đúng form object chưa
-* Cái này mình dùng bootstrap làm giao diện được ko a
+* mấy bác nhớ run lại cái **Xampp** nhé. chứ chạy npm start ko sẽ báo lỗi events error 498, làm mình mò mãi :v
+* Dự định sắp tới a có ra **Typescript** hay **NextJS** hông anh : hiện tại a chưa có e nhé. vì cộng đồng js thuần nó vẫn đông hơn typescript :v
+* anh ơi có cách nào không cần lấy cái nguyên row trực tiếp mà không cần phải sử dụng data.push từng cái không anh? yes, there is another video.
+* anh ơi em xóa cái JSON.stringtify rồi mà nó vẫn không chuyển thanh object ạ ?? em console.log ra xem giá trị của biến nó như thế nào. đã đúng form object chưa
+* Cái này mình dùng bootstrap làm giao diện được ko a : ofcourse, yes
 
+## Lesson 11: Details User / Route Parameters
 
-## Lesson 11: Form / Route Parameters
+await , asynchronous
+connection pool, 
+promise Wrapper ([link](https://www.npmjs.com/package/mysql2))
+performance issue on the production 
+Caching data -> Redis 
+destructering syntax (javascript)
+Route Parameters ([link](http://expressjs.com/en/guide/routing.html))
+
 
 ### Discussion
 
