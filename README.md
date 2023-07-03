@@ -18,7 +18,7 @@ First nodejs basic repo.
     - [Discussion](#discussion)
   - [Lesson 11: Details User / Route Parameters](#lesson-11-details-user--route-parameters)
     - [Discussion](#discussion-1)
-  - [Lesson 12: POST Method](#lesson-12-post-method)
+  - [Lesson 12: Form \& POST Method](#lesson-12-form--post-method)
   - [Lesson 13: CRUD](#lesson-13-crud)
   - [Lesson 14: Rest API](#lesson-14-rest-api)
   - [Lesson 15: Upload Files](#lesson-15-upload-files)
@@ -113,18 +113,23 @@ EJS Loop [link](https://stackoverflow.com/questions/22952044/loop-through-json-i
 
 ## Lesson 11: Details User / Route Parameters
 
-await , asynchronous
-connection pool, 
-promise Wrapper ([link](https://www.npmjs.com/package/mysql2))
-performance issue on the production 
-Caching data -> Redis 
-destructering syntax (javascript)
-Route Parameters ([link](http://expressjs.com/en/guide/routing.html))
+await , asynchronous  [link](https://www.w3schools.com/js/js_async.asp)
+connection pool,   
+promise Wrapper ([link](https://www.npmjs.com/package/mysql2))  
+performance issue on the production   
+Caching data -> Redis   
+destructering syntax (javascript)  
+Route Parameters ([link](http://expressjs.com/en/guide/routing.html))  
 
 
 ### Discussion
 
-## Lesson 12: POST Method
+## Lesson 12: Form & POST Method
+
+HTML Form ([link](https://www.w3schools.com/html/html_forms.asp))
+Express redirect ([link](https://expressjs.com/en/api.html))
+POST & GET
+Debug flow: name -> type -> path // logic -> content -> feeling
 
 ## Lesson 13: CRUD
 
