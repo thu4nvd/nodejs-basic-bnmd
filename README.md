@@ -20,6 +20,7 @@ First nodejs basic repo.
     - [Discussion](#discussion-1)
   - [Lesson 12: Form \& POST Method](#lesson-12-form--post-method)
   - [Lesson 13: CRUD](#lesson-13-crud)
+    - [Discussion](#discussion-2)
   - [Lesson 14: Rest API](#lesson-14-rest-api)
   - [Lesson 15: Upload Files](#lesson-15-upload-files)
   - [Lesson 16: Middlewware](#lesson-16-middlewware)
@@ -132,6 +133,12 @@ POST & GET
 Debug flow: name -> type -> path // logic -> content -> feeling
 
 ## Lesson 13: CRUD
+
+HTML form methode delete -> google search   
+Shoudl PUT and DELTE used in form?    
+Express validator  
+
+### Discussion
 
 ## Lesson 14: Rest API
 
