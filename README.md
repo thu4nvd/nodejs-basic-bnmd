@@ -20,8 +20,7 @@ First nodejs basic repo.
     - [Discussion](#discussion-1)
   - [Lesson 12: Form \& POST Method](#lesson-12-form--post-method)
   - [Lesson 13: CRUD](#lesson-13-crud)
-    - [Discussion](#discussion-2)
-  - [Lesson 14: Rest API](#lesson-14-rest-api)
+  - [Lesson 14: Restful API](#lesson-14-restful-api)
   - [Lesson 15: Upload Files](#lesson-15-upload-files)
   - [Lesson 16: Middlewware](#lesson-16-middlewware)
   - [Lesson 17: what next](#lesson-17-what-next)
@@ -138,9 +137,13 @@ HTML form methode delete -> google search
 Shoudl PUT and DELTE used in form?    
 Express validator  
 
-### Discussion
+## Lesson 14: Restful API
 
-## Lesson 14: Rest API
+Restful API ([link](https://aws.amazon.com/what-is/restful-api/))  
+HTTP Status ([link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiys4e58_f_AhXwgFYBHZlYDlIQFnoECBIQAQ&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTTP%2FStatus&usg=AOvVaw2pSlgOW81Ahg7C8tS8pF0W&opi=89978449))
+
+JSON type ([link](https://www.w3schools.com/js/js_json_intro.asp))
+
 
 ## Lesson 15: Upload Files
 
