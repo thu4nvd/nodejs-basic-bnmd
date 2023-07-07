@@ -1,9 +1,9 @@
-# nodejs-basic-bnmd
+# Nodejs Basic
 First nodejs basic repo.
 
 ## Content of the course
 
-- [nodejs-basic-bnmd](#nodejs-basic-bnmd)
+- [Nodejs Basic](#nodejs-basic)
   - [Content of the course](#content-of-the-course)
   - [Lesson 01: What is Node.js? (V8 Engine)](#lesson-01-what-is-nodejs-v8-engine)
   - [Lesson 02: Setup Environment (IDE/Node.js)](#lesson-02-setup-environment-idenodejs)
@@ -32,6 +32,7 @@ First nodejs basic repo.
 
 VSCode 
 Install node (use nvm to manage node version )
+
 
 ## Lesson 03: Clients/Servers | Request/Response
 
@@ -144,8 +145,18 @@ HTTP Status ([link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&c
 
 JSON type ([link](https://www.w3schools.com/js/js_json_intro.asp))
 
-
 ## Lesson 15: Upload Files
+
+AWS - S3 buik storage : Pay as You Go  
+npm package to upload files : Formidable, multer  
+How to research packages: 
+
+    npm install --save-exact multer@1.4.3
+
+Upload file using Multer ([link](https://stackabuse.com/handling-file-uploads-in-node-js-with-expres-and-multer/))
+
+    npm install --save-exact app-root-path@3.0.0
+
 
 ## Lesson 16: Middlewware
 
