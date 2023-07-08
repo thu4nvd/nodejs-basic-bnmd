@@ -157,7 +157,18 @@ Upload file using Multer ([link](https://stackabuse.com/handling-file-uploads-in
 
     npm install --save-exact app-root-path@3.0.0
 
-
 ## Lesson 16: Middlewware
+
+Middleware 
+1. Logging middleware
+2. Authentication check middleware (jwt)
+3. Middleware to parse JSON data from request
+4. Return 404 pages 
+
+Keyword: Express middleware ( framework name + middleware)
+     
+     npm install --save-exact morgan@1.10.0
+
+    
 
 ## Lesson 17: what next
